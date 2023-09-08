@@ -26,3 +26,5 @@ X = replace with your current Python3 version
 1. Integrate more visualisation scripts
 2. Exception handling and logging
 3. Option to write visualisations to file
+4. Optimise Python import calls
+5. Streamline application install
