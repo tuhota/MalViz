@@ -1,30 +1,18 @@
 #  📈 MalViz
 
-## Python/C API:
-wrapper.cpp makes use of this API to interact with Python3 scripts
+## Wrapper script:
+Calls other scripts based on command line arguments.
 
-It can also call Python functions directly within the program
+Usage: ```wrapper.py filetype visualisation path_to_file``` Filetypes: ```-pe``` ```-pcap```  Visualisations: ```-wordcloud``` ```-most-common```
 
-[Documentation](https://docs.python.org/3/c-api/veryhigh.html)
-
-
-
-## Dependencies
-Install python-dev/devel for your distro and ```$locate Python.h ``` to ensure installation was successful
-
-
-
-## g++ compiler directives:
-```g++ wrapper.cpp -o wrapper -I/usr/include/python3.X -lpython3.X```
-
-X = replace with your current Python3 version
-
+Example: ```python3 wrapper.py -pe -wordcloud 1.exe```
 
 <hr>
 
 # 🔨 TODO:
 1. Integrate more visualisation scripts
 2. Exception handling and logging
-3. Option to write visualisations to file
+3. Option to write visualisations to file (plt.savefig)
 4. Optimise Python import calls
-5. Streamline application install
+5. Rewrite wrapper.py as GUI or compiled
+6. Streamline application install
