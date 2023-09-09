@@ -7,7 +7,7 @@ Usage: ```wrapper.py filetype visualisation path_to_file``` Filetypes: ```-pe```
 
 Example: ```python3 wrapper.py -pe -most-common 1.exe```
 
-<img src="https://i.ibb.co/LQ7fq7v/Screenshot-Kali-2023-09-09-12-18-31.png">
+<img src="https://i.ibb.co/LQ7fq7v/Screenshot-Kali-2023-09-09-12-18-31.png" width="70%">
 
 <hr>
 
