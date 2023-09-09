@@ -5,7 +5,9 @@ Calls other scripts based on command line arguments.
 
 Usage: ```wrapper.py filetype visualisation path_to_file``` Filetypes: ```-pe``` ```-pcap```  Visualisations: ```-wordcloud``` ```-most-common```
 
-Example: ```python3 wrapper.py -pe -wordcloud 1.exe```
+Example: ```python3 wrapper.py -pe -most-common 1.exe```
+
+<img src="https://i.ibb.co/LQ7fq7v/Screenshot-Kali-2023-09-09-12-18-31.png">
 
 <hr>
 
