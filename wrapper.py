@@ -1,6 +1,8 @@
+# TODO: 
+# 1. Rewrite as class structure?
+# 2. Convert to GUI/ compiled?
+
 import sys
-
-
 
 def main():
     #help/info
@@ -28,8 +30,6 @@ def main():
     else: 
         print("Incorrect usage: use wrapper.py -h for help")
         sys.exit()
-
-
 
 if __name__ == "__main__":
     main()
